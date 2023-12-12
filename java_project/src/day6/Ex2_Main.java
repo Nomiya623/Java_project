@@ -9,7 +9,7 @@ public class Ex2_Main {
 		//====재정===: 한 클라스 내에 구현된 동알한 이름이지만 다르게 작동하는 여러 메소드;
 		//====오버라이딩(overriding), 오버로딩(overloading)====;
 		//1. 다양한 이름의 메소드가 동일한 개 정의되는 개
-		//2. 동일한 이름의 메소드가 여러 개 정의되는 개
+		//2. 동일한 이름의 메소드가 여러 개 정의되는 개: overloading
 //		String name;//이름
 //		int height;//키
 //		double weight;//몸무개

@@ -20,19 +20,24 @@ public class Human_Main {
 		
 		
 		lee.setMoney(300000);
-		lee.money = 300000;
-		System.out.println(park.getMoney());
-		
-		kim.setMoney(300000-50000);
-		System.out.println(hwang.getMoney());
-		
-		lee.setAge(30);
-		System.out.println(park.getAge());
-		Human.money = 100000;
-		
+//		lee.money = 300000;
+//		System.out.println(park.getMoney());
+//		
+//		kim.setMoney(300000-50000);
+//		System.out.println(hwang.getMoney());
+//		
+//		lee.setAge(30);
+//		System.out.println(park.getAge());
+//		Human.money = 100000;
 		
 		Math.max(0, 0);
+//		public static int max(int a, int b) {
+//        return (a >= b) ? a : b;
+//    }
+		Human.staticTest();
+
 		
+
 		
 		
 	}//main

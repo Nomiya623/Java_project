@@ -28,3 +28,4 @@ public class Calculator {
 		//리턴타입 다르다거 정의 안됨.
 	
 }//class
+

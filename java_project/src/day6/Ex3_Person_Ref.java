@@ -1,6 +1,6 @@
 package day6;
 
-public class Ex3_Ref_Main {
+public class Ex3_Person_Ref {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

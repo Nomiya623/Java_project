@@ -20,10 +20,9 @@ public class Student {
 	
 //	조건 3. 생성자 : 1. 학번, 이름 초기화 하는 생성자
 //	  2. 학번, 이름, 학과 초기화 하는 생성자
-	
+	//this() = 생성자에서 다른 생성자에세 호출
 	Student ( int stuNo, String stuName){
-		this.stuNo = stuNo;
-		this.stuName = stuName;
+		this(stuNo, stuName, "");
 		
 	}
 	

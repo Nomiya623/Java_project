@@ -18,7 +18,7 @@ public Book(String title, int ISBN) {
 }
 
 public Book() {
-	this(null, null, 0);
+	this(null, null, 0); //string => null
 	System.out.println("생성자가 호출됨");
 }
 

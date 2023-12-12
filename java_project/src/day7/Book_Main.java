@@ -7,6 +7,6 @@ public class Book_Main {
 		Book javaBook = new Book("Java JDK", "황기채", 3333);
 		Book holyBible = new Book("holyBible", 1);
 		Book emptyBook = new Book();
-	}//main
+	}// main
 
-}//class
+}// class

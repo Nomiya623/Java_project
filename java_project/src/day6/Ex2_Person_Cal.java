@@ -1,6 +1,6 @@
 package day6;
 
-public class Ex2_Main {
+public class Ex2_Person_Cal {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

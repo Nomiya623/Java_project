@@ -1,6 +1,6 @@
 package day7;
 
-public class Ex1_Student {
+public class Student_Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

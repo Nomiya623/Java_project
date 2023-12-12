@@ -1,13 +1,17 @@
 package day7;
 
 public class Human {
-	private int money;//회비
+	static int money;//회비, private 제거
 	private String name;
 	private int age;
+	//누구나 다 호출 가능한 Static method;
 	
 	Human(String name){
 		this.name = name;
 	}
+	
+	
+	
 	
 	public int getMoney() {
 		return money;

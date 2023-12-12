@@ -13,7 +13,8 @@ public class Ex2_Sample {
 			ob1 = ob2; //객체 지환
 			System.out.println(ob1.id);
 			System.out.println(ob2.id);
-		}
+			
+		}//class
 		
-	}
+	}//main
 

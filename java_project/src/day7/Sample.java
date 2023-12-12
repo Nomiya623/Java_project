@@ -14,6 +14,7 @@ public class Sample {
 	public int get() {
 		return this.id;
 	}
+
 	
 	
 }//class

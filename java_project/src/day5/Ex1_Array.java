@@ -77,6 +77,8 @@ public class Ex1_Array {
 				sum+=v;
 			System.out.println(v);
 		}
+			
+		s.close();
 		//버블정렬 개념. 이론 학습 필요.	
 	}//main
 

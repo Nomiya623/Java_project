@@ -12,7 +12,7 @@ public class Human {
 		System.out.println("현재 잔액: " + money);
 	}
 
-	Human(String name) {
+	public Human(String name) {
 		this.name = name;
 	}
 

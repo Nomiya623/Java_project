@@ -9,7 +9,7 @@ public class Person_Main {
 	Person person = new Person("홍길동", 30);
 	
 	
-	person.setPhone("123-123");
+	//person.setPhone("123-123");
 		
 	System.out.println("Name: " + person.getName());
 	System.out.println("Age: " + person.getAge());

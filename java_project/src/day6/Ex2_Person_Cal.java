@@ -26,7 +26,7 @@ public class Ex2_Person_Cal {
 		System.out.println(hong.getName());
 		//System.out.println(hong.name);
 		
-		//hong.age = 30;
+		// hong.age = 30;
 		System.out.println(hong.age);
 		
 		Person kim = new Person("김철수", 20);

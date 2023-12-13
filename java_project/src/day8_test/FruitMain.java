@@ -2,7 +2,24 @@ package day8_test;
 
 import java.util.Scanner;
 
+//static void putInBox(Object obj) {}//++최상의 클래스
+
+//1. 매개변수로 바나나, 오렌지, 애플 다 받아서 처리할수 있도록 매개변수 선언.
+//2. 바나나 객체가 들어오면 '바나나 상자에 담았다'
+
 public class FruitMain {
+	//static void putInBox(Object obj) {}
+	static void putInBox(Fruit fruit) {	
+	if (fruit instanceof Banana) {
+		System.out.println("사과 상자에 담았다.");
+	} else if(fruit instanceof Orange) {
+		System.out.println("오렌지를 담았다.");
+	} else {
+		System.out.println("오렌지를 담았다.");
+		}
+	}
+	
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		 Scanner scanner = new Scanner(System.in);
@@ -24,6 +41,10 @@ public class FruitMain {
 		int applePrice = scanner.nextInt();
 		Apple apple = new Apple("사과", "빨간색", applePrice);
 		
+		//박싱 사용
+		banana.putInBox();
+		orange.putInBox();
+		apple.putInBox();
 		
 
 		// Printing price information for each fruit

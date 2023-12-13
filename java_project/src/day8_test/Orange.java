@@ -5,4 +5,9 @@ public class Orange extends Fruit{
 		super(kind, color, price);
 	}
 
+	public void putInBox() {
+        System.out.println("오랜지 상자에 담았다.");
+	}
+	
+	
 }

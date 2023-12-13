@@ -27,16 +27,11 @@ public class Calc_Main {
 		int name1;
 		int name2;
 
-		System.out.println(name1.equals(name2));
-		if (name1 == name2) {
-			System.out.println("이름이 같다");
-		}
+//		//System.out.println(name1.equals(name2));
+//		if (name1 == name2) {
+//			System.out.println("이름이 같다");
+//		}
 
-		
-		
-		
-		
-		
 	}
 
 }

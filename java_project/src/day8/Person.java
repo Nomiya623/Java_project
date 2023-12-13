@@ -12,9 +12,10 @@ public class Person {
 
 	Person(String name) {
 		this.name = name;
+		this.age = age;
 	}
 
-	Person() {
+	Person(String string, int i) {
 	}
 
 	// 모든 변수를 private 선언, get set 메소드 구현
@@ -47,13 +48,7 @@ public class Person {
 
 	void getPhone(int phone) {
 		this.phone = phone;
-		System.out.println();
 	}
 
-	// 이름: 홍길동, 나이 30, 핸드폰번호 123-123 값을 가지는 객체 생성
-
-	void info() {
-		System.out.println("이름: " + name + "나이 " + age + "핸드폰번호 ");
-	}
-
+	
 }

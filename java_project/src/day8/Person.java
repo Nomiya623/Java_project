@@ -16,7 +16,7 @@ public class Person {
 	}
 
 	Person(String string, int i) {
-	}
+	}  
 
 	// 모든 변수를 private 선언, get set 메소드 구현
 

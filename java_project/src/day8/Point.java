@@ -24,4 +24,4 @@ public class Point {
 		System.out.println(x + "," + y);
 	}
 
-}
+}  

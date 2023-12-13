@@ -31,7 +31,7 @@ public class Ex2_Main {
 		Human h2 = new Student();
 ////	Student s2 = (Student) new Human(); (X)
 		Human w2 = new Worker();
-
+    
 		print(h);
 		print(s);
 		print(w);

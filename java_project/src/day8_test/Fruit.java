@@ -19,8 +19,7 @@ public class Fruit {
 	}
 
 	// Getter method for price
-	public int getPrice() {
-		return price;
+	public void getPrice() {
 	}
 
 	// Method to print price information

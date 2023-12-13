@@ -6,5 +6,5 @@ public class Ex1_Main_2 {
 		// TODO Auto-generated method stub
 
 	}
-
+  
 }

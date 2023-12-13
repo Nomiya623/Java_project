@@ -32,7 +32,7 @@ public class MultipleCalc {
 		if (this.equals(obj.name)) {
 			System.out.println();
 		}
-	}
+	}  
 
 	// 2,3 번의 메소드 이름으로 접근할수 있도록 선언
 

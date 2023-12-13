@@ -5,9 +5,12 @@ public class Apple extends Fruit {
 		super(kind, color, price);
 	}
 
-//	public void putInBox() {
-//        System.out.println("사과 상자에 담았다.");
-//	}
-	
+	public void putInBox() {
+        System.out.println("사과 상자에 담았다.");
+	}
+
+	public void getPrice() {
+		System.out.println("사과는 할인해서 2000원");
+	}
 	
 }

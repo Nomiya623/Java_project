@@ -53,8 +53,8 @@ public class FruitMain {
 		apple.printPrice();
 		
 		// total Sum
-		int totalSum  = banana.getPrice() + orange.getPrice() + apple.getPrice();
-		System.out.println("3개의 과일 가격 총합은: " + totalSum + "원입니다.");
+//		int totalSum  = banana.getPrice() + orange.getPrice() + apple.getPrice();
+//		System.out.println("3개의 과일 가격 총합은: " + totalSum + "원입니다.");
 		
 		//close the Scanner
 		scanner.close();

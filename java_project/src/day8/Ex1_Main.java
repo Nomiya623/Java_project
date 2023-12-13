@@ -29,7 +29,7 @@ public class Ex1_Main {
 		
 		hong1.nameEquals(hong2);
 		
-		
+		  
 		
 		
 		

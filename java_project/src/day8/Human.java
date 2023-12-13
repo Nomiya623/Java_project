@@ -7,3 +7,4 @@ public class Human{
 	void eat() {}
 	void sleep() {}
 }
+  

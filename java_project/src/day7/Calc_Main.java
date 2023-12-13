@@ -19,7 +19,8 @@ public class Calc_Main {
 		System.out.println(info);
 		
 		
-
+		//name.equals(name2) =====
+		//System.out.println(name.equals(name2));
 		
 		
 	}

@@ -14,11 +14,9 @@ public class Point_Main {
 		ColorPoint cPoint = new ColorPoint(3, 4, green);
 //		cPoint.setXY(3, 4);
 //		cPoint.setColor("green");
+		cPoint.showColorPoint();
 		
 		
-		
-		
-		cPoint.showPoint();
 		
 		
 		

@@ -5,14 +5,14 @@ package day9_test;
 public class ColorTV extends TV{
 	
 	
-	private int numberOfColors;
+	protected int Colors;
 	
-	public ColorTV(int size, int numberOfColors) {
+	public ColorTV(int size, int Colors) {
 		super(size);
-		this.numberOfColors = numberOfColors;
+		this.Colors = Colors;
 	}
 		public void printProperty() {
-	        System.out.println(getSize() + "인치 " + numberOfColors + "컬러");
+	        System.out.println(getSize() + "인치 " + Colors + "컬러");
 	    }	
 
 	}	

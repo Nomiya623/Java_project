@@ -10,15 +10,15 @@ public class MultipleCalc_Main {
 
 		// Multiply two numbers
 		int result1 = calculator.multiply(5, 7);
-		System.out.println("Multiplication of two numbers: " + result1);
+		System.out.println("Multiply the 2 numbers: " + result1);
 
 		// Multiply three numbers
 		int result2 = calculator.multiply(2, 4, 6);
-		System.out.println("Multiplication of three numbers: " + result2);
+		System.out.println("Multiply the 3 numbers: " + result2);
 
 		// Example of using the overloaded method with doubles
 		double result3 = calculator.multiply(2.5, 1.5, 3.0);
-		System.out.println("Multiplication of three doubles: " + result3);
+		System.out.println("Multiply the 3 doubles: " + result3);
 
 	}
 

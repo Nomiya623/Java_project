@@ -30,8 +30,5 @@ public class LinkedList {
 //	            p.draw();
 //	            p = p.next;
 //	        }
-//	    }
-	
-	
-	
-}
+	    }
+	}

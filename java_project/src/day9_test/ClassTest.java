@@ -2,12 +2,7 @@ package day9_test;
 
 public class ClassTest {
 
-//	[2번] 다음 main() 메소드와 실행 결과를 참고하여 ColorTV를 상속받는 IPTV 클래스를 작성하라.
-//	public static void main(String[] args) {
-//		IPTV iptv = new IPTV("192.1.1.2", 32, 2048); //"192.1.1.2" 주소에 32인치, 2048컬러
-//		iptv.printProperty();
-//	}
-//	결과 : 나의 IPTV는 192.1.1.2 주소의 32인치 2048컬러
+
 
 
 
@@ -17,7 +12,7 @@ public class ClassTest {
 //	- x, y, width, height 값을 매개변수로 받아 필드를 초기화하는 생성자
 //	- int square() : 사각형 넓이 리턴
 //	- void show() : 사각형의 좌표와 넓이를 화면에 출력
-//	- boolean contatins(Rectangle r) : 매개변수로 받은 r이 현 사각형 안에 있으면 true 리턴
+//	- boolean contains(Rectangle r) : 매개변수로 받은 r이 현 사각형 안에 있으면 true 리턴
 //	- main() 메소드의 코드와 실행 결과는 다음과 같다
 //	public static void main(String[] args) {
 //	   Rectangle r = new Rectangle(2, 2, 8, 7);

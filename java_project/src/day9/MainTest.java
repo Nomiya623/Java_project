@@ -21,6 +21,17 @@ public class MainTest {
 		int age = dog.getAge();
 		System.out.println(age);
 
+		
+		
+		
+		//book 객체 3개를 만들기
+			//1.1.자바책, 홍길동 123
+			//1.2.자바책, X 123
+			//1.3.기본본생성자 호출
+		Book javaBook  = new Book("Java", "홍길동", 123);
+		Book hongBook  = new Book("hong", 321);
+		Book emptyBook  = new Book();
+		
 	}
 
 }

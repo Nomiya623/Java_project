@@ -23,28 +23,34 @@ public class Rectangle {
 //	s의 면적은 36
 //	t는 r을 포함합니다.
 //	
-	
+
 	int x;
 	int y;
 	int widght;
 	int height;
-	
+
 	public Rectangle(int x, int y, int widght, int height) {
 		this.x = x;
 		this.y = y;
 		this.widght = widght;
 		this.height = height;
-		
-		
+
 	int square() {
 		return widght * height;
-	}	
-		
-		
-		
-		
-		
-		
 	}
-	
+
+	public void show() {
+		System.out.println("(" + x + "," + y + ")에서 크기가" + widght + "x" + height + "인 사각형");
+	}
+
+	public boolean contains(Rectangle r) {
+		int rX = r.x;
+		int rY = r.y;
+		int rWidth = r.width;
+		int rHeight = r.height;
+
+		return (x <= rX) && (y <= rY) && (x + widght >= rX + r.widght) && (y + height >= rY + rHeight);
+
+	}
+
 }

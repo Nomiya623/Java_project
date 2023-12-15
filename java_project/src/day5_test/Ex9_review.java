@@ -1,4 +1,4 @@
-package day5_test_review;
+package day5_test;
 
 import java.util.Arrays;
 import java.util.Random;

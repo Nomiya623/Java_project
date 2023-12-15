@@ -1,4 +1,4 @@
-package day5_test_review;
+package day5_test;
 
 public class Ex2_Array1 {
 

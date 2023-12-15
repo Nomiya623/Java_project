@@ -27,4 +27,7 @@ public class Rect {
 	// 숫자를 숫자로 사용;
 	
 	
-}
+	
+	
+	}
+	

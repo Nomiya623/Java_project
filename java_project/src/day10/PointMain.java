@@ -33,5 +33,6 @@ public class PointMain {
 	
 
 	boolean flg = (a.equals(b));
-	
+	Integer i = Integer.valueOf(10);
+	int a1 = i.intValue();
 }

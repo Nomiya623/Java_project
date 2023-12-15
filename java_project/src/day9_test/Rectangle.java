@@ -52,5 +52,5 @@ public class Rectangle {
 		return (x <= rX) && (y <= rY) && (x + widght >= rX + r.widght) && (y + height >= rY + rHeight);
 
 	}
-
+	
 }

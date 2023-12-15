@@ -15,22 +15,19 @@ public class PointMain {
 		p.equals(p2);
 		boolean flg = (p.equals(p2));
 		System.out.println(p.equals(p2));
-		
-		
+
 		System.out.println(p2);
 		System.out.println("p => " + p);
 		System.out.println("p.getClass => " + p.getClass());
 		System.out.println("p.toString => " + p.toString());
 	}
-	
-	
-		Rect r1 = new Rect(3,4);
-		Rect r2 = new Rect(4,3);
-		
-		Rect a = new Rect(2,3);
-		Rect b = new Rect(3,2);
-		Rect c = new Rect(3,4);
-	
+
+	Rect r1 = new Rect(3, 4);
+	Rect r2 = new Rect(4, 3);
+
+	Rect a = new Rect(2, 3);
+	Rect b = new Rect(3, 2);
+	Rect c = new Rect(3, 4);
 
 	boolean flg = (a.equals(b));
 	Integer i = Integer.valueOf(10);

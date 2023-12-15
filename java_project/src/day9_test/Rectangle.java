@@ -34,7 +34,7 @@ public class Rectangle {
 		this.y = y;
 		this.widght = widght;
 		this.height = height;
-
+	}
 	int square() {
 		return widght * height;
 	}
@@ -46,7 +46,7 @@ public class Rectangle {
 	public boolean contains(Rectangle r) {
 		int rX = r.x;
 		int rY = r.y;
-		int rWidth = r.width;
+		int rWidth = r.widght;
 		int rHeight = r.height;
 
 		return (x <= rX) && (y <= rY) && (x + widght >= rX + r.widght) && (y + height >= rY + rHeight);

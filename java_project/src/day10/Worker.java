@@ -1,6 +1,6 @@
 package day10;
 
-public abstract class Worker implements Human{
+public class Worker implements Human{
 
 	@Override
 	public void walk(int x) {
@@ -17,9 +17,12 @@ public abstract class Worker implements Human{
 	@Override
 	public void sleep() {
 		// TODO Auto-generated method stub
-		System.out.println();
+		System.out.println("잔다.");
 	}
 
-	abstract void work();
+	void work() {
+		
+		System.out.println("일한다.");
+	}
 	
 }

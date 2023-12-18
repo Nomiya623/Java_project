@@ -16,9 +16,6 @@ public class day10_StringReview {
 //		(뒷부분 첫 숫자가 1,3일 경우 '남자 입니다.'
 //			, 아닐 경우 '여자 입니다'
 
-//	String phone1 = new String phone1();
-//	String phone2 = new String phone2();
-//	String phone3 = new String phone3();
 
 		Scanner s = new Scanner(System.in);
 		String phone1, phone2, phone3;

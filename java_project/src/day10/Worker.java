@@ -1,6 +1,6 @@
 package day10;
 
-public class Worker implements Human{
+public class Worker implements Human {
 
 	@Override
 	public void walk(int x) {
@@ -21,8 +21,8 @@ public class Worker implements Human{
 	}
 
 	void work() {
-		
+
 		System.out.println("일한다.");
 	}
-	
+
 }

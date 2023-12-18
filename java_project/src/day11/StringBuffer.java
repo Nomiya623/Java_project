@@ -23,27 +23,27 @@ public class StringBuffer {
 
 	private void setLength(int i) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	private void delete(int i, int j) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	private void replace(int i, int j, String string) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	private void insert(int i, String string) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	private void append(String string) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 }

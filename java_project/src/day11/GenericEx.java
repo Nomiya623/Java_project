@@ -1,6 +1,18 @@
 package day11;
 
-public class CollectionEx {
+public class GenericEx {
 // Stack LIFO last in first out;
 // Queue FIFO first in first out.
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }

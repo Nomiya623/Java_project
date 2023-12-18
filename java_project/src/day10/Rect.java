@@ -17,7 +17,7 @@ public class Rect {
 			return false;
 	}
 
-	String age1 = "20";
+	java.lang.String age1 = "20";
 	int age2 = Integer.parseInt(age1);
 	// 숫자를 숫자로 사용;
 

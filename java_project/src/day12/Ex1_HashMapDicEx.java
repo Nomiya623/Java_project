@@ -2,7 +2,7 @@ package day12;
 
 import java.util.*;
 
-public class HashMapDicEx {
+public class Ex1_HashMapDicEx {
 	public static void main(String[] args) {
 		// 영어 단어와 한글 단어의 쌍을 저장하는 HashMap 컬렉션 생성
 		HashMap<String, Integer> map = new HashMap<String, Integer>();

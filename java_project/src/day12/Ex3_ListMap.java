@@ -17,20 +17,20 @@ public class Ex3_ListMap {
 		list.add(map);
 		map.clear();
 
-		map.put("name", "홍길동");
-		map.put("java", 90);
-		map.put("oracle", 95);
-		map.put("html", 100);
-		
-		list.add(map);
-		for(int i=0; i<list.size(); i++) {
+		HashMap<String, Object> map2 = new HashMap<String, Object>();
+		map2.put("name", "홍길동");
+		map2.put("java", 90);
+		map2.put("oracle", 95);
+		map2.put("html", 100);
+
+		list.add(map2);
+		for (int i = 0; i < list.size(); i++) {
 			HashMap<String, Object> user = list.get(i);
 			System.out.println("이름:" + user.get("name"));
-			System.out.println();
-			System.out.println();
+			System.out.println("자바 점수: " + user.get("java"));
+			System.out.println("oracle 점수: " + user.get("oracle"));
+			System.out.println("=============");
 		}
-		
-		
-		
+
 	}
 }

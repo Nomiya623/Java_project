@@ -17,15 +17,14 @@ public class StringEx {
 //		123test
 //		23test1
 //		3test12
-				
 
 		Scanner s = new Scanner(System.in);
 
 		System.out.println("텍스트를 입력하세요: ");
 		String inputText = s.nextLine();
-		
-		//입력받은 텍스트 회전하여 출력
-		
+
+		// 입력받은 텍스트 회전하여 출력
+
 		for (int i = 0; i < inputText.length(); i++) {
 			String rotatedText = inputText.substring(i) + inputText.substring(0, i);
 			System.out.println(rotatedText);
@@ -35,7 +34,7 @@ public class StringEx {
 //			String last = str.substring(1);
 //			str result = last+first;
 //			System.out.println(str);
-		
+
 	}
 
 }

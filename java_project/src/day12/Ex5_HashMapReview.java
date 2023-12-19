@@ -38,7 +38,7 @@ public class Ex5_HashMapReview {
 						System.out.println("주소: " + list.get(i).get("addr"));
 						System.out.println("핸드폰번호: " + list.get(i).get("핸드폰번호"));
 						flg = true;
-
+						break;
 					}
 				}
 

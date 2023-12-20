@@ -7,6 +7,7 @@ import java.util.*;
 public class MapTestEx {
 //	1). 입력 부분
 	public static int score(String sub, int max) {
+		System.out.println(sub + "과목의 점수 입력: ");
 		Scanner s = new Scanner(System.in);
 		int type;
 
@@ -19,7 +20,6 @@ public class MapTestEx {
 			}
 		}
 		return type;
-
 	}
 
 	public static void main(String[] args) {
@@ -57,6 +57,7 @@ public class MapTestEx {
 				String name = (String) list.get(i).get("name");
 				if(keyword.equals(name)) {
 					list.remove(i);
+					System.out.println("삭제되었습니다.");
 					break;
 					}
 				}
@@ -66,9 +67,14 @@ public class MapTestEx {
 				for (int i = 0; i < list.size(); i++) {
 					String name = (String) list.get(i).get("name");
 					if(keyword.equals(name)) {
-						int sum = list.get(i).get(i) + list.get(i).get("oracle") + list.get(i).get("html");
+						int sum = 
+								(int) list.get(i).get("java")
+								+ (int) list.get(i).get("oracle")
+								+ (int) list.get(i).get("html");
 						System.out.println("이름: " + name + ", 총점" + sum);
 						break;
+					}
+				}
 			} else {
 				System.out.println("종료되었습니다.");
 			}
@@ -76,31 +82,8 @@ public class MapTestEx {
 			boolean flg = false;
 			if (!flg) {
 				System.out.println("찾는 사람이 없습니다.");
-				
-			} else if (input == 3) {
-				System.out.println("종료되었습니다.");
-				break;
+
 			} else {
 				System.out.println("1, 2, 3 중에 하나를 입력해주세요.");
 			}
-			
-		}
-	}
-
-	public static void result() {
-		Scanner s = new Scanner(System.in);
-		ArrayList<HashMap<String, Object>> list = new ArrayList<>();
-
-		String name;
-		int totalScore;
-		int java;
-		int oracle;
-		int html;
-//		총합 계산
-//		System.out.println("이름: " + name + ", 총점" + totalScore);
-
-	}
-
 }
-
-	

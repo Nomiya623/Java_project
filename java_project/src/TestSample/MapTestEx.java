@@ -31,50 +31,55 @@ public class MapTestEx {
 		while (true) {
 			System.out.println("== (1)입력 (2) 삭제 (3) 종료 ==");
 			System.out.println("입력 부분: ");
-			int input = s.nextInt();
-			if (input == 1) {
+			int select = s.nextInt();
+			if (select == 1) {
 				HashMap<String, Object> map = new HashMap<>();
 				
 				System.out.println("이름을 입력해주세요: ");
-				map.put("name", s.next());
-//				System.out.println("자바 점수를 입력해주세요: ");
-//				map.put("java", s.next());
+				String name = s.next();
+				map.put("name", name);
+
+				System.out.println("자바 점수를 입력해주세요: ");
 				map.put("java", score("java", 30));
-//				System.out.println("오라클 점수를 입력해주세요: ");
-//				map.put("oracle", s.next());
+				
+				System.out.println("오라틀 점수를 입력해주세요: ");
 				map.put("oracle", score("oracle", 50));
-//				System.out.println("html 점수를 입력해주세요: ");
-//				map.put("html", s.next());
+				
+				
+				System.out.println("html 점수를 입력해주세요: ");
 				map.put("html", score("html", 20));
 
 				list.add(map);
 				System.out.println("저장되었습니다.");
+				
+				
 //			 3). 출력 부분			 
-			} else if (input == 2) {
+			} else if (select == 2) {
 				System.out.println("삭제 부분: ");
-				String keyword = s.next();
+				String input = s.next();
 				for (int i = 0; i < list.size(); i++) {
-				String name = (String) list.get(i).get("name");
-				if(keyword.equals(name)) {
+				String name = (String) list.get(i).get(input);
+				if(input.equals(name)) {
 					list.remove(i);
 					System.out.println("삭제되었습니다.");
 					break;
 					}
 				}
-			} else if (input == 3) {
+			} else if (select == 3) {
 				System.out.println("출력 부분: ");
-				String keyword = s.next();
+				String input = s.next();
 				for (int i = 0; i < list.size(); i++) {
 					String name = (String) list.get(i).get("name");
-					if(keyword.equals(name)) {
+					if(input.equals(name)) {
 						int sum = 
 								(int) list.get(i).get("java")
 								+ (int) list.get(i).get("oracle")
 								+ (int) list.get(i).get("html");
 						System.out.println("이름: " + name + ", 총점" + sum);
 						break;
-					}
+					
 				}
+			}
 			} else {
 				System.out.println("종료되었습니다.");
 			}
@@ -86,4 +91,5 @@ public class MapTestEx {
 			} else {
 				System.out.println("1, 2, 3 중에 하나를 입력해주세요.");
 			}
-}
+		}
+	}

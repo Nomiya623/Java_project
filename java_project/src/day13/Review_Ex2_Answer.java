@@ -36,13 +36,6 @@ public class Review_Ex2_Answer {
 				String name = s.next();
 				map.put("name", name);
 
-				System.out.print("가격 입력 : ");
-				int price = s.nextInt();
-				map.put("price", price);
-
-				System.out.print("개수 입력 : ");
-				int cnt = s.nextInt();
-				map.put("cnt", cnt);
 
 				// 2.중복된 과일명을 입력 시 (ex, 오랜지가 있는데 1번 메뉴에서 오렌지 다시 입력 시
 				// 이때는 가겨을 입력 받지 말고
@@ -66,18 +59,20 @@ public class Review_Ex2_Answer {
 
 				if (!isFruit) {
 					System.out.print("가격 입력 : ");
-					int price1 = s.nextInt();
+					int price = s.nextInt();
 					map.put("price", price1);
 
-					System.out.print("갯수 입력 : ");
+					System.out.print("개수 입력 : ");
 					int count = s.nextInt();
 					map.put("cnt", count);
 					list.add(map);
 				}
 
 			} else if (select == 2) {
+				//판매
 				System.out.print("구매할 과일 입력해주세요! : ");
 				String name = s.next();
+				
 				System.out.print("구매할 개수를 입력해주세요! : ");
 				int cnt = s.nextInt();
 
@@ -93,18 +88,38 @@ public class Review_Ex2_Answer {
 							System.out.println(name + "의 남은 갯수 : " + (fruitCnt - cnt) + "개");
 						} else {
 							System.out.println("재고 부족.");
+							System.out.println(name + "의 현재 남은 개수는 " + fruitCnt + "개 입니다." );
 						}
 					}
 				}
 			} else if (select == 3) {
 				System.out.print("확인할 과일 입력해주세요! : ");
 				String name = s.next();
+				
 				for (int i = 0; i < list.size(); i++) {
 					String fruitName = (String) list.get(i).get("name");
 					if (fruitName.equals(name)) {
-						System.out.println(name + "의 남은 갯수는 : " + list.get(i).get("cnt") + "개");
+						HashMap<String, Object>map = new HashMap<>();
+						map = list.get(i);
+						int fruitCnt = (int)map.get("cnt");
+						System.out.println(name + "의 현재 남은 개수는 : " + fruitCnt + "개");
 					}
 				}
+			 } else if (select == 4) {
+	                System.out.print("가격을 변경할 과일 입력해주세요! : ");
+	                String name = s.next();
+
+	                for (int i = 0; i < list.size(); i++) {
+	                    String fruitName = (String) list.get(i).get("name");
+	                    if (fruitName.equals(name)) {
+	                        System.out.print("새로운 가격 입력 : ");
+	                        int newPrice = s.nextInt();
+	                        list.get(i).put("price", newPrice);
+	                        System.out.println(name + "의 가격이 변경되었습니다!");
+	                    }
+	                }	
+				
+				
 			} else {
 				System.out.println("종료되었습니다!");
 				break;
@@ -114,8 +129,8 @@ public class Review_Ex2_Answer {
 		if (!flg) {
 			System.out.println("찾는 과일이 없습니다. ");
 		} else {
-			System.out.println("1, 2, 3 메뉴 중에 하나를 선택해주세요. ");
+			System.out.println("1, 2, 3, 4 또는 종류하려면 5 메뉴 중에 하나를 선택해주세요. ");
 		}
 
-	}
+	}//main
 }// class

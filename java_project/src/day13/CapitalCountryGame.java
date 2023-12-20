@@ -53,7 +53,15 @@ public class CapitalCountryGame {
 					break;//while true 종료
 				}
 				
-				
+				String[]split = input.split(" ");
+				String country = split[0]; //나라의이름
+				String capital = split[1];//수도
+				//나라가 존재하는지 체크-> 메서드
+				if(isExists(country)) {//true 리턴을 받았을 경우
+					//이
+					
+					System.out.println(country + "는 이미 있습니다.");
+				}
 				
 				
 				
@@ -63,6 +71,11 @@ public class CapitalCountryGame {
 			
 		}	
 			
+		}
+
+		public boolean isExists(String country2) {
+			// TODO Auto-generated method stub
+			return false;
 		}
 	
 	

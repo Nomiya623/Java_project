@@ -92,4 +92,4 @@ public class MapTestEx {
 				System.out.println("1, 2, 3 중에 하나를 입력해주세요.");
 			}
 		}
-	}
+	}}

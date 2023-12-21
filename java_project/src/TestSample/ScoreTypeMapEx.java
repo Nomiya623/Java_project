@@ -4,7 +4,7 @@ import java.util.*;
 
 //* 숫자 1을 입력할 경우 '입력 부분', 2를 입력할 경우 '삭제 부분', 3을 입력할 경우 '출력 부분'
 //그 외의 값을 입력할 경우 '종료 부분'을 실행 한다.
-public class MapTestEx {
+public class ScoreTypeMapEx {
 //	1). 입력 부분
 	public static int score(String sub, int max) {
 		System.out.println(sub + "과목의 점수 입력: ");

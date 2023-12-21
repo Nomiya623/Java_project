@@ -2,7 +2,7 @@ package day13;
 
 import java.util.*;
 
-public class Review_Ex2_Answer {
+public class Review_Ex2_MenuAdd {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -27,7 +27,7 @@ public class Review_Ex2_Answer {
 		ArrayList<HashMap<String, Object>> list = new ArrayList<>();
 		System.out.println("과일 주문 시스템");
 		while (true) {
-			System.out.println("(1)과일추가 (2)판매 (3)확인 (그외) 종료");
+			System.out.println("(1)과일추가 (2)판매 (3)확인 (4)가격 변경 (5)(그외) 종료");
 			System.out.print("메뉴를 선택해주세요 : ");
 			int select = s.nextInt();
 			if (select == 1) {
@@ -60,7 +60,7 @@ public class Review_Ex2_Answer {
 				if (!isFruit) {
 					System.out.print("가격 입력 : ");
 					int price = s.nextInt();
-					map.put("price", price1);
+					map.put("price", price);
 
 					System.out.print("개수 입력 : ");
 					int count = s.nextInt();
@@ -80,7 +80,7 @@ public class Review_Ex2_Answer {
 					String fruitName = (String) list.get(i).get("name");
 					if (fruitName.equals(name)) {
 						HashMap<String, Object> map = new HashMap<>();// hashmap key value
-						map = list.get(i);// map에서 분리해서 입력할 경우.
+						map = list.get(i);// map 에서 분리해서 입력할 경우.
 						int fruitCnt = (int) list.get(i).get("cnt");
 						if (fruitCnt - cnt >= 0) {
 							list.get(i).put("cnt", fruitCnt - cnt);
@@ -103,6 +103,7 @@ public class Review_Ex2_Answer {
 						map = list.get(i);
 						int fruitCnt = (int)map.get("cnt");
 						System.out.println(name + "의 현재 남은 개수는 : " + fruitCnt + "개");
+						System.out.println(name + "의 현재 남은 개수는 " + list.get(i).get("name"));
 					}
 				}
 			 } else if (select == 4) {

@@ -16,7 +16,7 @@ public class ArrayInput {
 	            do {
 	                System.out.println("1부터 10사이의 숫자를 입력하세요:");
 	                input = s.nextInt();
-	            } while (input < 1 || input > 10 || isDuplicate(arr, input));
+	            } while (input >= 1 || input <= 10 || isDuplicate(arr, input));
 
 	            arr[i] = input;
 	        }

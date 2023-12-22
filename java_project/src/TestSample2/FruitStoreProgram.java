@@ -25,8 +25,7 @@ public class FruitStoreProgram {
 		// 3번메뉴에서 개수확린할대 가격까지 같이 확인
 		Scanner s = new Scanner(System.in);
 		ArrayList<HashMap<String, Object>> list = new ArrayList<>();
-		ArrayList<String>list= new ArrayList<>;
-		HashMap<String, Object>map = new HashMap<>();
+	
 		System.out.println("과일 주문 시스템");
 		while (true) {
 			System.out.println("(1)과일추가 (2)판매 (3)확인 (4)가격 변경 (5)(그외) 종료");
